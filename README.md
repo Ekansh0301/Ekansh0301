@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="./assets/header.svg" alt="Ekansh Goyal — Distributed systems, NLP research, Computational linguistics" width="100%">
+  <img src="./assets/header.svg" alt="Ekansh Goyal — Machine learning, NLP research, Distributed systems" width="100%">
 </p>
 
 <p align="center">
@@ -12,12 +12,16 @@
 
 ### Hi, I'm Ekansh
 
-I work where systems engineering meets language. Most of what I build starts from first principles: a Dynamo-style store to understand consistency, an xv6 scheduler to understand the kernel, a Mixture-of-Experts transformer to understand routing. My research looks at how language models pick up meaning that is spread across long, complex text rather than sitting in a few words.
+I work at the intersection of machine learning, language and systems. I'm most curious about how models actually use the information they're given: what they attend to, what they ignore, and how the structure of language shapes what they learn. Just as much, I care about the engineering that lets those models run reliably outside a notebook.
 
-- **Now**: Undergraduate researcher at the Language Technologies Research Centre (LTRC), IIIT Hyderabad
+My research at LTRC, IIIT Hyderabad, sits between NLP and psycholinguistics. I work on generating narratives that balance several goals at once, on what makes some parts of a story matter more than others, on how belief and framing surface in online discourse, and on how language processing differs across languages. I lean towards interpretable approaches, where linguistic knowledge is built into the model rather than inspected after the fact.
+
+On the ML side, I like working close to the internals: fine-tuning language models with reinforcement learning from several reward signals, building sparse Mixture-of-Experts models from scratch, and fitting models onto hardware that was never meant to run them, from a laptop GPU to a phone. My systems work, from distributed stores and file systems to kernels, comes from the same habit of understanding things well enough to build them myself.
+
+- **Research**: NLP and psycholinguistics at the Language Technologies Research Centre (LTRC), IIIT Hyderabad
 - **Studying**: B.Tech in Computer Science + MS in Computational Linguistics
-- **Building**: distributed systems, low-level C, and ML that runs on constrained hardware
-- **Ask me about**: replication and consistency, OS internals, RL fine-tuning for LLMs, computational narrative
+- **Interested in**: interpretability, RL for language models, efficient and on-device ML, distributed systems
+- **Ask me about**: narrative understanding, LLM fine-tuning, replication and consistency, OS internals
 
 ---
 
@@ -63,16 +67,6 @@ I work where systems engineering meets language. Most of what I build starts fro
 </table>
 
 <p align="center"><sub>More in <a href="https://github.com/Ekansh0301/sparse-moe-summarization">sparse-moe-summarization</a> · <a href="https://github.com/Ekansh0301?tab=repositories">all repositories</a></sub></p>
-
----
-
-### Publications
-
-<img alt="EMNLP 2026" src="https://img.shields.io/badge/EMNLP-2026%20Main-8957e5?style=flat-square"> **An Interpretable Linguistically-Grounded Analysis of Scene Saliency in Movie Screenplays**
-<br><sub>Dual-stream model fusing a frozen BERT encoder with psycholinguistic and discourse features through adaptive gating. Salient-scene recall 51.6% → 68.3%, +3.67 ROUGE-1 on downstream summarization.</sub>
-
-<img alt="SemEval 2026" src="https://img.shields.io/badge/SemEval-@ACL%202026-8957e5?style=flat-square"> **Truth Gradient: Mean Pooling and Narrative Density for Conspiracy Belief Detection** · [code](https://github.com/Ekansh0301/conspiracy-belief-detection)
-<br><sub>Shows that belief is spread across a whole post rather than in a few lexical cues. Mean-pooled DeBERTa-v3-large ensemble, 0.829 macro F1 on dev.</sub>
 
 ---
 
